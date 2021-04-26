@@ -7,6 +7,104 @@ html{
     font-size: 62.5%;
 }
 body{
-    padding:2rem; 
     font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header y nav */
+.header-love{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00f5d4;
+    height: 5rem;
+    box-shadow: inset 5px 5px 26px -3px rgba(0,0,0,0.46);
+}
+.header-love span {
+    color: rgb(241, 200, 200);
+    font-size: 3rem; 
+    font-family: 'Zen Dots', cursive;
+    text-shadow: 2px 2px 14px #CE5937;
+    animation-name: palpitar;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes palpitar {
+    50% {
+        font-size: 4rem;
+        color: red;
+    }
+}
+
+main {
+    background-color: #00f5d42c;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.boton {
+    display: flex;
+    background-color: #9b5de5;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 60%;
+    margin: 1rem auto;
+    border-radius: .5rem;
+}
+.boton:hover, .boton:active{
+    background-color: #6d05ec;
+}
+.boton a {
+    text-decoration: none;
+    color:white;
+    font-family: 'Zen Dots', cursive;
+    font-size: 2rem;
+}
+
+.msg-contenedor{
+    display: flex;
+    flex-direction: column;
+    background-color: #cdb4db;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.msg-contenedor__dia{
+    text-align: center;
+    border-radius: 1rem;
+    width: 35%;
+    padding: 1rem;
+    background-color: #6830c36b;
+    color: rgb(247, 244, 244);
+    margin-bottom: .5rem;
+}
+.msg-contenedor__titulo{
+    background-color: #ca81c66b;
+    border-radius: 1rem;
+    padding-left: 1rem;
+}
+.msg-contenedor__mensaje {
+    background-color: #d155706b;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: .5rem;
+}
+
+footer {
+    color: rgb(241, 200, 200);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: inset 5px 5px 50px -19px #000000;
+    background-color: #f15bb5;
+    font-size: 1.3rem;
+    height: 5rem;
+    font-family: 'Zen Dots', cursive;
 }
