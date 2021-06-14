@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.8rem;
+    font-family: 'Mate SC', serif;
+}
+.contenedor-principal {
+    width: 100%;
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+    background-color: #fcfaf0;
+}
+
+.header-principal {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.header-principal img {
+    width: 100%;
+    max-width: 640px;
+}
+.descripcion-love{
+    padding: 1rem 2rem;
+}
+.descripcion-love h3 {
+    text-align: center;
+    margin-bottom: .5rem;
+}
+.contenedor-botones {
+    width: 100%;
+    max-width: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+}
+.opcion {
+    width: 90%;
+    background-color: #f8eeca;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
+    padding: .5rem 1rem;
+    border-radius: .4rem;
+    box-shadow: inset 0px 0px 118px -97px rgba(0,0,0,0.75);
+}
+
+.opcion__titulo {
+    margin-bottom: .5rem;
+}
+.opcion__descripcion {
+    margin-bottom: .5rem;
+}
+.opcion__pagina-anterior {
+    background-color: #fde3d9;
+}
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .2rem;
+    text-decoration: none;
+}
+.boton__link {
+    margin: .2rem;
+    padding: .5rem 0;
+    width: 60%;
+    color: white;
+    background-color: rgb(99, 159, 173);
+    border-bottom: .2rem solid rgb(65, 110, 121);
+    border-right: .2rem solid rgb(65, 110, 121);
+}
+.boton__link:hover {
+    background-color: rgb(65, 110, 121);
+    border-bottom: .2rem solid rgb(99, 159, 173);
+    border-right: .2rem solid rgb(99, 159, 173);
+}
+.boton__pagina-antigua {
+    margin: .2rem;
+    width: 48%;
+    padding: .5rem 1rem;
+    text-align: center;
+    color: rgb(224, 224, 224);
+    background-color: rgb(233, 133, 225);
+    border-bottom: .2rem solid rgb(138, 81, 133);
+    border-right: .2rem solid rgb(138, 81, 133);
+}
+.boton__pagina-antigua:hover {
+    color: rgb(224, 224, 224);
+    background-color:rgb(138, 81, 133) ;
+    border-bottom: .2rem solid rgb(233, 133, 225);
+    border-right: .2rem solid rgb(233, 133, 225);
+}
+.mensaje-pagina-principal {
+    width: 100%;
+}
+.mensaje-pagina-principal img {
+    width: 100%;
+}
+.boton-pagina-anterior {
+    padding: 2rem 2rem;
+}
+.boton-pagina-anterior p {
+    margin: 0 0 1rem 0;
+}
